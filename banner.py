@@ -1,0 +1,18 @@
+from colorama import Fore, Style
+
+def show_banner():
+
+    print(Fore.CYAN + r"""
+
+ ██╗██████╗ ███████╗
+ ██║██╔══██╗██╔════╝
+ ██║██║  ██║███████╗
+ ██║██║  ██║╚════██║
+ ██║██████╔╝███████║
+ ╚═╝╚═════╝ ╚══════╝
+
+ Intrusion Detection System
+ Version : 1.0
+ Author  : Shiv Nandan
+
+""" + Style.RESET_ALL)
